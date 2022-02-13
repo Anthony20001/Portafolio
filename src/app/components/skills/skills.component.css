@@ -14,14 +14,11 @@
     width: 100%;
     text-align: center;
     justify-content: center;
+    margin: 1.5rem;
 }
 
 span{
-    font-size: 1.6rem;
-}
-
-.mt{
-    margin-top: 4rem;
+    font-size: 1.7rem;
 }
 
 .languages{
@@ -45,12 +42,15 @@ img{
 
 label{
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 @media screen and (max-width: 480px){
     .container{
         padding: 3rem 2rem;
+    }
+    .row{
+        flex-wrap: wrap;
     }
 }
 

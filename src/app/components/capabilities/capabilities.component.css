@@ -15,8 +15,8 @@
     border: solid 1px var(--light);
     border-radius: 12px;
     text-align: center;
-    margin: 1.3rem;
-    padding: 0rem 3rem;
+    margin: 1.1rem;
+    padding: 0rem 1rem;
 }
 
 .card:hover{

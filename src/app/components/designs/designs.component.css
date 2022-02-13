@@ -58,6 +58,10 @@ a:hover{
     border: solid 1px transparent;
 }
 
+.more{
+    font-size: 2rem;
+}
+
 .more:hover{
     background-color: var(--blue);
     /*border: solid 1px var(--light);*/
