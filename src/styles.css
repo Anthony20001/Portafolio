@@ -50,3 +50,9 @@ a{
         font-size: 45%;
     } 
 }
+
+@media screen and (max-width: 680px){
+    .row{
+        flex-wrap:wrap;
+    } 
+}
