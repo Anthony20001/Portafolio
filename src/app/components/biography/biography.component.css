@@ -1,0 +1,16 @@
+div{
+    color: var(--light);
+    padding: var(--paddingContainer);
+    background-color: var(--lightBlue);
+    margin: 0;
+}
+
+div p{
+    text-align: justify;
+    font-size:1.8rem;
+    line-height: 2.8rem;
+    background-color: #0000007a;
+    padding:3rem;
+    border-radius: 12px;
+    border: none;
+}

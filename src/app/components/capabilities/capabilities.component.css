@@ -1,0 +1,39 @@
+.capabilities{
+    padding: var(--paddingContainer);
+    background-color: #155d94;
+    color: var(--light);
+}
+
+.items{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: rgba(0, 0, 0, 0.623);
+    border: solid 1px var(--light);
+    border-radius: 12px;
+    text-align: center;
+    margin: 1.3rem;
+    padding: 0rem 3rem;
+}
+
+.card:hover{
+    background-color: rgba(0, 0, 0, 0.911);
+    cursor: pointer;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+/*=============================================*/
+.phrase{
+    padding: var(--paddingContainer);
+    color: var(--light);
+    background-color: rgba(0, 0, 0, 0.692);
+    font-size: 1.5rem;
+    text-align: center;
+}

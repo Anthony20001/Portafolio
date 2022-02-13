@@ -1,0 +1,56 @@
+.container{
+    padding: var(--paddingContainer);
+    color: var(--light);
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    display: block;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+span{
+    font-size: 1.6rem;
+}
+
+.mt{
+    margin-top: 4rem;
+}
+
+.languages{
+    width: 100%;
+    display: flex;
+}
+
+.image{
+    margin: 2rem 1rem;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+img{
+    width:3rem;
+    display: block;
+    justify-content: center;
+    margin: 0.5rem auto;
+}
+
+label{
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 3rem 2rem;
+    }
+}
+
